@@ -1,0 +1,31 @@
+.new_1 {
+    background: 
+      radial-gradient(rgb(207, 28, 28) 3px, transparent 4px),
+      radial-gradient(rgb(24, 22, 22) 3px, transparent 4px),
+      linear-gradient(#fff 4px, transparent 0),
+      linear-gradient(45deg, transparent 74px, transparent 75px, #bb5757 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+      linear-gradient(-45deg, transparent 75px, transparent 76px, #c45050 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  }
+body {
+    margin: 0;
+    
+    background-color: #E6E8E6;
+    overflow: hidden;
+   }
+   
+.laone {
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(#9b1717 1%, transparent 10%),
+    radial-gradient(#413030 1%, transparent 10%);
+    background-color: #ffffff;
+    background-position: 0 0, 40px 40px;
+    background-size: 100px 100px;
+   }
+#la1{
+       color: #09061b;
+       font-weight: bolder;
+   }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'home/css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>The P</title>
+</head>
+<body>
+
+    <div class="container-fluid" style="height:100vh;">
+        <div class="row "style="height:100vh;">
+            <div class="col-lg-8 col-8 col-sm-8 col-md-8 col-xl-8 laone "  >
+                <h1 id="la1" style="text-align: center; margin-top:35%;font-family: 'Montserrat', sans-serif;">
+                    LIVE NSE STOCK CLOSE PRICE PREDICTION
+                </h1>
+            </div>
+            <div class="col-lg-4 col-4 col-sm-4 col-md-4 col-xl-4 align-bottom new_1 " >
+                {% block body %}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
