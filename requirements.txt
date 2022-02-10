@@ -1,5 +1,5 @@
 dateutils==0.6.6
-Django==2.2.6
+Django==2.2.27
 joblib==0.14.0
 nsetools==1.0.10
 numpy==1.17.3
